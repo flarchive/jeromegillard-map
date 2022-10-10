@@ -1,0 +1,35 @@
+version: "3.7"
+
+#
+# All-in-one docker-compose file to develop this Flarum extension.
+#
+
+services:
+  flarum-dev:
+    image: mondedie/flarum:stable
+    container_name: flarum-dev
+    env_file:
+      - .env
+      - flarum-dev.env.local # create it from flarum-dev.env.local.example
+    restart: unless-stopped
+    depends_on:
+      - flarum-dev-db
+    volumes:
+      - .:/flarum/app/packages/flarum-map
+    ports:
+      - 80:8888
+    networks:
+      - flarum-dev
+
+  flarum-dev-db:
+    image: mariadb:10.5.9
+    container_name: flarum-dev-db
+    env_file:
+      - .env
+      - flarum-dev.env.local
+    restart: unless-stopped
+    networks:
+      - flarum-dev
+
+networks:
+  flarum-dev:
