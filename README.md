@@ -2,13 +2,15 @@
 
 > **Read-only archive of released versions of jeromegillard/map.** Not for installation: use [Packagist](https://packagist.org/packages/jeromegillard/map) or the [upstream repository](https://github.com/JeromeGillard/flarum-map).
 
-**0** versions archived · Latest: [`v0.1.9`](https://github.com/flarchive/jeromegillard-map/tree/archive/v0.1.9) · License: `MIT` · Flarum: `^1.8.3`
+**3** versions archived · Latest: [`v0.1.9`](https://github.com/flarchive/jeromegillard-map/tree/archive/v0.1.9) · License: `MIT` · Flarum: `^1.8.3`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v0.1.0` | 2022-10-08 | `^1.2.0` | [Browse](https://github.com/flarchive/jeromegillard-map/tree/archive/v0.1.0) |
+| `v0.1.1` | 2022-10-10 | `^1.2.0` | [Browse](https://github.com/flarchive/jeromegillard-map/tree/archive/v0.1.1) |
+| `v0.1.2` | 2022-10-11 | `^1.2.0` | [Browse](https://github.com/flarchive/jeromegillard-map/tree/archive/v0.1.2) |
 
 Catalog entry: [packages/jeromegillard-map.json](https://github.com/flarchive/archive-index/blob/main/packages/jeromegillard-map.json)
 
